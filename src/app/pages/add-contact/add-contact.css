@@ -1,0 +1,47 @@
+.form-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .form {
+    margin: 0 auto;
+  }
+  
+  .form-label {
+    text-align: left;
+    display: block;
+    margin-top: 10px;
+    color: #000;
+  }
+  
+  .form-input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .form-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 800px) {
+    .form-label {
+      font-size: 14px;
+    }
+  
+    .form-input {
+      font-size: 14px;
+    }
+  
+    .form-button {
+      font-size: 14px;
+    }
+  }
+  

@@ -1,0 +1,88 @@
+.contacts-container {
+    margin-top: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .contacts-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contact-card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    margin-bottom: 20px;
+  }
+
+  
+  .contact-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contact-header strong {
+    font-size: 18px;
+  }
+  
+  .contact-details {
+    text-align: left;
+    padding: 15px;
+    cursor: pointer;
+  }
+  
+  .contact-details p {
+    margin: 8px 0;
+  }
+  
+  /* Font Awesome icons */
+  svg {
+    margin-right: 8px;
+    color: #3498db; /* Set the desired icon color */
+  }
+  
+  .contact-header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contact-header strong {
+    font-size: 18px;
+  }
+  
+  .contact-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .edit-icon,
+  .delete-icon {
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .edit-icon:hover,
+  .delete-icon:hover {
+    color: #f39c12; /* Change to desired hover color */
+  }
+  
